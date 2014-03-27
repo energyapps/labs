@@ -363,9 +363,9 @@
 <div id="master_container">
     <div id="map"></div>
     <div id="zoom-box">
-        <a id="plus" href="#">+</a>
-        <a id="minus" href="#">-</a>
-        <a id="usa" href="#"><img src="img/mainland.png"></a>
+        <span id="plus" href="">+</span>
+        <span id="minus" href="">-</span>
+        <span id="usa" href=""><img src="img/mainland.png"></span>
     </div>
     <div id="right-nav">
       <div id="r-n-header">
@@ -379,7 +379,7 @@
       </div>
       <div id="r-n-subcontainer">
         <div id="see-more">
-          <a href="#"><span>Hide</span></a>
+          <span href="">Hide</span>
         </div>
         <div id="r-n-sc-lab" class="slide-tab">
           <div id="r-n-sc-info1">
@@ -513,18 +513,18 @@ slide.onclick=function(){
   if (slide.className == "active") {
     slide.className="inactive"
     labs_info.className="slide-tab inactive"
-    slide.innerHTML = "<a href='#''><span>Show</span></a>";
+    slide.innerHTML = "<span href='#'>Show</span>";
 
   } else{
     slide.className="active"
     labs_info.className="slide-tab active"
-    slide.innerHTML = "<a href='#''><span>Hide</span></a>";
+    slide.innerHTML = "<span href='#'>Hide</span>";
   };
 };
 
 
 
-var map = L.mapbox.map('map', 'examples.map-9ijuk24y',{
+var map = L.mapbox.map('map', 'energy.hkmpl3gg',{
       maxZoom: 9,
       minZoom: 3
     });
@@ -620,7 +620,7 @@ e.target.setIcon(L.mapbox.marker.icon({
 
       if (point_Clicked.facility.length <= 25) {
         facility.classList.add("one-line")
-      } else if (point_Clicked.facility.length <= 48){
+      } else if (point_Clicked.facility.length <= 46){
         facility.classList.add("two-line")
       } else {
         facility.classList.add("three-line")
