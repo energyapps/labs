@@ -16,7 +16,7 @@ var points = [
         "year": "1947",
         "employ": "450",
         "txt": "Materials science and engineering; chemical and biological sciences; applied math and computational science; environmental and protection sciences; and simulation, modeling and decision science.",
-        "URL": "https://www.ameslab.gov/",
+        "website": "https://www.ameslab.gov/",
         "facility2": "Ames Laboratory"
       }
     },
@@ -37,7 +37,7 @@ var points = [
         "year": "1946",
         "employ": "3,500",
         "txt": "Physics, chemistry, biological sciences, energy storage, high-performance computing, national security, engines and alternative fuels, environmental science and nuclear energy",
-        "URL": "http://www.anl.gov/",
+        "website": "http://www.anl.gov/",
         "facility2": "Argonne National Laboratory"
       }
     },
@@ -58,7 +58,7 @@ var points = [
         "year": "1947",
         "employ": "3,000",
         "txt": "Nuclear and particle physics; photon sciences and nano materials; and cross disciplinary research on climate change, sustainable energy and Earth's ecosystems",
-        "URL": "http://www.bnl.gov/world/",
+        "website": "http://www.bnl.gov/world/",
         "facility2": "Brookhaven National Laboratory"
       }
     },
@@ -79,7 +79,7 @@ var points = [
         "year": "1967",
         "employ": "1,700",
         "txt": "Particle physics and accelerator science and technology",
-        "URL": "http://www.fnal.gov/",
+        "website": "http://www.fnal.gov/",
         "facility2": "Fermi National Accelerator Laboratory"
       }
     },
@@ -100,7 +100,7 @@ var points = [
         "year": "1949",
         "employ": "3,500",
         "txt": "Nuclear science and engineering; national security research and testing; energy and environmental sustainability",
-        "URL": "https://inlportal.inl.gov/portal/server.pt/community/home/255",
+        "website": "https://inlportal.inl.gov/portal/server.pt/community/home/255",
         "facility2": "Idaho National Laboratory"
       }
     },
@@ -121,7 +121,7 @@ var points = [
         "year": "1931",
         "employ": "4,000",
         "txt": "Physics; chemistry; nuclear science; accelerator research; photon science and engineering sciences; computational research and mathematics; Earth sciences; energy efficiency; materials sciences; and life sciences, genomics, and physical biosciences",
-        "URL": "http://www.lbl.gov/",
+        "website": "http://www.lbl.gov/",
         "facility2": "Lawrence Berkeley National Laboratory"
       }
     },
@@ -142,7 +142,7 @@ var points = [
         "year": "1952",
         "employ": "6,500",
         "txt": "Nuclear weapons stockpile stewardship, nuclear nonproliferation, high-performance computing, national security, biology, energy research, climate science, additive manufacturing, lasers and high-energy-density physics",
-        "URL": "https://www.llnl.gov/",
+        "website": "https://www.llnl.gov/",
         "facility2": "Lawrence Livermore National Laboratory"
       }
     },
@@ -163,7 +163,7 @@ var points = [
         "year": "1943",
         "employ": "10,000",
         "txt": "Accelerators and electrodynamics; bioscience, biosecurity and health; chemical science; Earth and space sciences; energy; engineering; high-energy-density plasmas and fluids; information science, computing and applied math; materials science; national security and weapons science; nuclear and particle physics; astrophysics and cosmology; and sensors and information systems",
-        "URL": "http://www.lanl.gov/index.php",
+        "website": "http://www.lanl.gov/index.php",
         "facility2": "Los Alamos National Laboratory"
       }
     },
@@ -184,7 +184,7 @@ var points = [
         "year": "1910",
         "employ": "1,500",
         "txt": "High-efficiency boilers, turbines, fuel cells and other power systems; emissions controls for coal-fired power plants; carbon capture and storage; efficiency and environmentalquality of domestic oil and natural gas exploration, production and processing; and materials for extreme environments",
-        "URL": "http://www.netl.doe.gov/",
+        "website": "http://www.netl.doe.gov/",
         "facility2": "National Energy Technology Laboratory"
       }
     },
@@ -205,7 +205,7 @@ var points = [
         "year": "1910",
         "employ": "1,500",
         "txt": "High-efficiency boilers, turbines, fuel cells and other power systems; emissions controls for coal-fired power plants; carbon capture and storage; efficiency and environmentalquality of domestic oil and natural gas exploration, production and processing; and materials for extreme environments",
-        "URL": "http://www.netl.doe.gov/",
+        "website": "http://www.netl.doe.gov/",
         "facility2": "National Energy Technology Laboratory"
       }
     },
@@ -226,7 +226,7 @@ var points = [
         "year": "1910",
         "employ": "1,500",
         "txt": "High-efficiency boilers, turbines, fuel cells and other power systems; emissions controls for coal-fired power plants; carbon capture and storage; efficiency and environmentalquality of domestic oil and natural gas exploration, production and processing; and materials for extreme environments",
-        "URL": "http://www.netl.doe.gov/",
+        "website": "http://www.netl.doe.gov/",
         "facility2": "National Energy Technology Laboratory"
       }
     },
@@ -247,7 +247,7 @@ var points = [
         "year": "1977",
         "employ": "2,500",
         "txt": "Renewable energy and energy efficiency research and development, including energy systems integration, solar, wind, renewable fuels and vehicle systems, buildings, geothermal, energy sciences, computational sciences and energy analysis",
-        "URL": "http://www.nrel.gov/",
+        "website": "http://www.nrel.gov/",
         "facility2": "National Renewable Energy Laboratory"
       }
     },
@@ -268,7 +268,7 @@ var points = [
         "year": "1943",
         "employ": "4,400",
         "txt": "Energy-related science and technology, from basic research to the development and demonstration of breakthrough materials, processes and systems",
-        "URL": "http://www.ornl.gov/",
+        "website": "http://www.ornl.gov/",
         "facility2": "Oak Ridge National Laboratory"
       }
     },
@@ -289,7 +289,7 @@ var points = [
         "year": "1965",
         "employ": "4,500",
         "txt": "Chemical and molecular sciences, biological systems science; climate change science; subsurface science; chemical engineering; applied materials science and engineering; and applied nuclear science and technology",
-        "URL": "http://www.pnnl.gov/",
+        "website": "http://www.pnnl.gov/",
         "facility2": "Pacific Northwest National Laboratory"
       }
     },
@@ -310,7 +310,7 @@ var points = [
         "year": "1951",
         "employ": "450",
         "txt": "Nuclear fusion and plasma physics",
-        "URL": "http://www.pppl.gov/",
+        "website": "http://www.pppl.gov/",
         "facility2": "Princeton Plasma Physics Laboratory"
       }
     },
@@ -331,7 +331,7 @@ var points = [
         "year": "1945",
         "employ": "10,000",
         "txt": "Nuclear weapons; defense; energy; materials science and homeland security; nonproliferation; supercomputing and cybersecurity; robotics; climate and infrastructure security; nuclear reactor safety; nanodevices and microsystems; geosciences; bioscience; radiation effects; and nuclear fusion.",
-        "URL": "http://www.sandia.gov/",
+        "website": "http://www.sandia.gov/",
         "facility2": "Sandia National Laboratories"
       }
     },
@@ -352,7 +352,7 @@ var points = [
         "year": "1945",
         "employ": "10,000",
         "txt": "Nuclear weapons; defense; energy; materials science and homeland security; nonproliferation; supercomputing and cybersecurity; robotics; climate and infrastructure security; nuclear reactor safety; nanodevices and microsystems; geosciences; bioscience; radiation effects; and nuclear fusion.",
-        "URL": "http://www.sandia.gov/",
+        "website": "http://www.sandia.gov/",
         "facility2": "Sandia National Laboratories"
       }
     },
@@ -373,7 +373,7 @@ var points = [
         "year": "1951",
         "employ": "825",
         "txt": "Environmental remediation and risk reduction; nuclear materials processing and disposition; nuclear detection, characterization and assessments; gas processing, storage and transfer systems",
-        "URL": "http://srnl.doe.gov/",
+        "website": "http://srnl.doe.gov/",
         "facility2": "Savannah River National Laboratory"
       }
     },
@@ -394,7 +394,7 @@ var points = [
         "year": "1962",
         "employ": "2,000",
         "txt": "Accelerator research; astrophysics and cosmology; biology; elementary particle physics; environmental science; materials, chemistry and energy sciences; scientific computing; and X-ray science",
-        "URL": "https://www6.slac.stanford.edu/",
+        "website": "https://www6.slac.stanford.edu/",
         "facility2": "SLAC National Accelerator Laboratory"
       }
     },
@@ -415,7 +415,7 @@ var points = [
         "year": "1987",
         "employ": "800",
         "txt": "Experimental nuclear physics, computational and theoretical nuclear physics, accelerator science, cryogenics, superconducting radio frequency technologies, radiation detectors, medical imaging devices and free-electron lasers",
-        "URL": "https://www.jlab.org/",
+        "website": "https://www.jlab.org/",
         "facility2": "Thomas Jefferson National Accelerator Facility"
       }
     }
