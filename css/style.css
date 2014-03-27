@@ -24,7 +24,6 @@
 	padding-top: 10px;
 	font-size: 20px;
 	text-align: center;		
-	color: #91e5b6;
 }
 
 #r-n-header-labs {
@@ -33,10 +32,16 @@
 	letter-spacing: 1px;
 }
 
-#r-n-header-labs h2 { 
+#r-n-header-labs h2 a, #r-n-header-labs h2  { 
 	padding-top: 20px; /*29, 20, 9*/
 	color: #fff; 
 	font-family: "Avenir LT W02 85 Heavy",verdana,sans-serif !important;	
+}
+
+#r-n-header-labs h2 a:hover {
+	text-decoration: none;
+		color: #91e5b6;
+
 }
 
 #r-n-header-labs.one-line h2 {

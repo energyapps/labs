@@ -625,11 +625,11 @@ e.target.setIcon(L.mapbox.marker.icon({
       } else {
         facility.classList.add("three-line")
       };
-    facility.innerHTML = "<h2>" + point_Clicked.facility + "</h2>";
+    facility.innerHTML = "<h2><a target='_target' href='"+ point_Clicked.website + "'>" + point_Clicked.facility + "</a></h2>";
     year.innerHTML = "<h4>Founded</h4><p>"+ point_Clicked.year +"</p>";
     employees.innerHTML = "<h4>Employees</h4><p>"+ point_Clicked.employ +"</p>"
     research.innerHTML = "<h4>Location</h4><p>" + point_Clicked.city + ", " + point_Clicked.state + "</p><h4>Research</h4><p>"+ point_Clicked.txt +"</p>"
-    link.innerHTML = "<a href='http://" + point_Clicked.website + "'>Visit this lab's site</a>";
+    link.innerHTML = "<a target='_target' href='" + point_Clicked.website + "'>Visit this lab's site</a>";
 }
     
 function resetStyle() {
