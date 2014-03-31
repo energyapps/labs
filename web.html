@@ -524,7 +524,7 @@ slide.onclick=function(){
 
 
 
-var map = L.mapbox.map('map', 'energy.hkmpl3gg',{
+var map = L.mapbox.map('map', 'energy.hlo44ea4',{
       maxZoom: 9,
       minZoom: 3
     });
@@ -546,18 +546,18 @@ usa.onclick=function(){
             ]);
 }
 
-enquire.register("screen and (max-width:600px)", {
-      //set to shallower zoom on small view size (mobile)
-      match : function() {
-        // map.setView([37.6773, -92.708], 3);
-        console.log('match')
-      },      
-      //set back to deeper zoon on larger view size                          
-      unmatch : function() {
-        // map.setView([37.6773, -92.708], 4);
-        console.log('unmatch')
-      } 
-    });
+// enquire.register("screen and (max-width:600px)", {
+//       //set to shallower zoom on small view size (mobile)
+//       match : function() {
+//         // map.setView([37.6773, -92.708], 3);
+//         console.log('match')
+//       },      
+//       //set back to deeper zoon on larger view size                          
+//       unmatch : function() {
+//         // map.setView([37.6773, -92.708], 4);
+//         console.log('unmatch')
+//       } 
+//     });
 
 
 var markers = new L.MarkerClusterGroup({
@@ -618,9 +618,9 @@ e.target.setIcon(L.mapbox.marker.icon({
     //change DOM in sidebar
     facility.className = "";
 
-      if (point_Clicked.facility.length <= 25) {
+      if (point_Clicked.facility.length <= 22) {
         facility.classList.add("one-line")
-      } else if (point_Clicked.facility.length <= 46){
+      } else if (point_Clicked.facility.length <= 45){
         facility.classList.add("two-line")
       } else {
         facility.classList.add("three-line")
