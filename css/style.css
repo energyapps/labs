@@ -262,9 +262,11 @@ Right Nav
     /*border-top: 3px solid #fff;*/ 
   }
 
-.energy-hero span img {
-	width: initial !important;
+.energy-hero span#usa img {
+	width: 30px;
+	height: 19px;
 	display: initial !important;
+	padding-top: 15px;
 }
 
   #zoom-box span {
@@ -283,6 +285,8 @@ Right Nav
 
   #zoom-box span:last-child {
     border-bottom: none;
+    line-height: 0px;
+
   }
 
   #zoom-box span:hover {
@@ -303,7 +307,7 @@ Right Nav
     width: 31px;
   }
   #usa {
-    top: 122px;
+	top: 122px;
     padding-left: 10px;
     width: 41px;
   }
